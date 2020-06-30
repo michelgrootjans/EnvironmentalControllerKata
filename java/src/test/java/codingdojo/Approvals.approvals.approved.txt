@@ -1,0 +1,8 @@
+[5] => {blower: 'on', heater: 'on', loTempAlarm: 'on', cooler: 'off', hiTempAlarm: 'off'} 
+[6] => {blower: 'on', heater: 'on', loTempAlarm: 'off', cooler: 'off', hiTempAlarm: 'off'} 
+[15] => {blower: 'on', heater: 'on', loTempAlarm: 'off', cooler: 'off', hiTempAlarm: 'off'} 
+[16] => {blower: 'off', heater: 'off', loTempAlarm: 'off', cooler: 'off', hiTempAlarm: 'off'} 
+[24] => {blower: 'off', heater: 'off', loTempAlarm: 'off', cooler: 'off', hiTempAlarm: 'off'} 
+[25] => {blower: 'on', heater: 'off', loTempAlarm: 'off', cooler: 'on', hiTempAlarm: 'off'} 
+[29] => {blower: 'on', heater: 'off', loTempAlarm: 'off', cooler: 'on', hiTempAlarm: 'off'} 
+[30] => {blower: 'on', heater: 'off', loTempAlarm: 'off', cooler: 'on', hiTempAlarm: 'on'} 
