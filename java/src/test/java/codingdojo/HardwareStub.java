@@ -75,4 +75,14 @@ public class HardwareStub implements Hardware {
         state += loTempAlarm ? "L" : "l";
         return state;
     }
+
+    @Override
+    public String toString() {
+        return String.format("{blower: '%s', heater: '%s', loTempAlarm: '%s', cooler: '%s', hiTempAlarm: '%s'}",
+                stateOf(blowerState), stateOf(heaterState), stateOf(loTempAlarm), stateOf(coolerState), stateOf(hiTempAlarm));
+    }
+
+    private String stateOf(boolean state) {
+        return state ? "on" : "off";
+    }
 }
